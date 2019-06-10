@@ -1,0 +1,30 @@
+html { font-size: 62.5%; }
+.button:hover {
+  background-color: green;
+  border:1px solid red;
+  color:green;
+  width: 200px;
+  padding: 15px 32px;
+  border-radius:15px;
+  text-align:center;
+  text-decoration:none;
+  font-size:1.8rem;
+  text-shadow:2px 2px black;
+  box-shadow:2px 2px black;
+}
+.button {
+  background: linear-gradient(135deg, rgba(209,209,209,1) 0%, rgba(209,209,209,0.85) 21%, rgba(254,254,254,0.65) 49%, rgba(254,254,254,0.3) 99%);
+  background-color: #008CBA; /* blue */
+  border: 1px solid #003683; /* darkblue */
+  color: #008CBA; /*blue */
+  width: 200px;
+  padding: 15px 32px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  /* I looked up a conversion and found a way to make the rem almost equal to px's by sizing at 10% of what the unit is to pixels.*/
+  text-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+}
